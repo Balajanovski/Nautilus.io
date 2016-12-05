@@ -1,0 +1,133 @@
+:root, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 9em 0 0 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@keyframes sway_title {
+  0% {
+    transform: rotate(6deg) translate(-10px, 0%);
+  }
+  50% {
+    transform: rotate(-6deg) translate(10px, 0%);
+  }
+  100% {
+    transform: rotate(6deg) translate(-10px, 0%);
+  }
+}
+@keyframes sway_subtitle {
+  0% {
+    transform: rotate(6deg) translate(-14.5px, 0%);
+  }
+  50% {
+    transform: rotate(-6deg) translate(14.5px, 0%);
+  }
+  100% {
+    transform: rotate(6deg) translate(-14.5px, 0%);
+  }
+}
+@keyframes sway_nav {
+  0% {
+    transform: rotate(6deg) translate(-17.5px, 0%);
+  }
+  50% {
+    transform: rotate(-6deg) translate(17.5px, 0%);
+  }
+  100% {
+    transform: rotate(6deg) translate(-17.5px, 0%);
+  }
+}
+
+#wrapper {
+  background-color: #2d55aa;
+}
+
+
+.content {
+  font-family: 'Quicksand',sans-serif;
+  text-align: center;
+  background-color: #2d55aa;
+  text-align: center;
+  min-height: 75vh;
+  margin: -.1em 0 0 0;
+  padding: 1em;
+  color: #eee;
+  font-size: 2em;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px black;
+}
+
+.content {
+  font-size: 1em;
+}
+
+.content h1 {
+  animation: sway_title 7s linear infinite;
+  margin-top: 5%;
+  font-weight: 100;
+  font-size: 5em;
+  user-select: none;
+  cursor: default;
+  z-index: 9999;
+  position: relative;
+}
+
+.content p {
+  font-size: 1.5em;
+  animation: sway_subtitle 7s linear infinite;
+  margin-top: -2em;
+  z-index: 9999;
+  position: relative;
+}
+
+nav {
+  margin-top: 2em;
+  font-size: 16px;
+  animation: sway_nav 7s linear infinite;
+  margin-left: -5px;
+  text-align: center;
+  position: relative;
+  z-index: 9999;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+#about-link {
+  margin-right: 30px;
+}
+
+#compare-link {
+  margin-left: 30px;
+}
+
+#seabed {
+  background-color: #ffcc66;
+  height: 60px;
+  min-height: 60px;
+  z-index: 9999;
+  margin-top: -135px;
+}
+
+#copyright {
+  color: gray;
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  top: 925px;
+}
+
+#waves {
+  flex: 1 1 auto;
+}
