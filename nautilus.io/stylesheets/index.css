@@ -126,7 +126,7 @@ nav a:visited {
   min-height: 60px;
   z-index: 9999;
   display: flex;
-  box-shadow: 0 -15px 1rem;
+  box-shadow: 0 -15px 1rem sandybrown;
 /*   margin-top: -151px; */
 }
 
