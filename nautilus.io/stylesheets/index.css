@@ -121,16 +121,18 @@ nav a:visited {
 } */
 
 #seabed {
-  background-color: #ffcc66;
+  background-color: sandybrown;
   height: 60px;
   min-height: 60px;
   z-index: 9999;
+  display: flex;
 /*   margin-top: -151px; */
 }
 
 #copyright {
-  color: gray;
+  color: black;
   font-family: 'Quicksand', sans-serif;
+  margin: auto;
 }
 
 #waves {
