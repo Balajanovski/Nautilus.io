@@ -1,6 +1,14 @@
 # Nautilus.io
-<p>Hello and welcome to Nautilus.io.<br>
-This is just a small website I've created for
-my school IST project.<br>
-Feel free to look around.<br><br>
-Some credit has to go to Zane Hannan for helping me with complicated css and neatening up my project on github</p>
+
+For a direct link, see <https://balajanovski.github.io/Nautilus.io/>
+
+Hello and welcome to Nautilus.io.
+
+This is just a small website I've created for my school IST project.
+
+Feel free to look around.
+
+   Contributing
+------------------
+
+Zane Hannan, @ZaneHannanAU
