@@ -151,6 +151,5 @@ nav a:visited {
 }
 
 #slogan {
-  margin: auto;
-/*   Centres slogo */
+  margin-top: -40px;
 }
