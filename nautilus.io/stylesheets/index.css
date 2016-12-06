@@ -120,20 +120,23 @@ a:visited {
   color: white;
 }
 
-#about-link {
+.nav-link:not(:first-child) {
+  margin-left: 30px;
+}
+/* #about-link {
   margin-right: 30px;
 }
 
 #compare-link {
   margin-left: 30px;
-}
+} */
 
 #seabed {
   background-color: #ffcc66;
   height: 60px;
   min-height: 60px;
   z-index: 9999;
-  margin-top: -151px;
+/*   margin-top: -151px; */
 }
 
 #copyright {
