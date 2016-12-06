@@ -16,34 +16,34 @@ body {
 }
 
 @keyframes sway_title {
-  0% {
+  from {
     transform: rotate(6deg) translate(-10px, 0%);
   }
-  50% {
+  to {
     transform: rotate(-6deg) translate(10px, 0%);
   }
 }
 @keyframes sway_subtitle {
-  0% {
+  from {
     transform: rotate(6deg) translate(-14.5px, 0%);
   }
-  50% {
+  to {
     transform: rotate(-6deg) translate(14.5px, 0%);
   }
 }
 @keyframes sway_description {
-  0% {
+  from {
     transform: rotate(6deg) translate(-17px, 0%);
   }
-  50% {
+  to {
     transform: rotate(-6deg) translate(17px, 0%);
   }
 }
 @keyframes sway_nav {
-  0% {
+  from {
     transform: rotate(6deg) translate(-20px, 0%);
   }
-  50% {
+  to {
     transform: rotate(-6deg) translate(20px, 0%);
   }
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .content h1 {
-  animation: sway_title 7s linear infinite;
+  animation: 7s linear 0s infinite alternate sway_title;
   margin-top: 5%;
   font-weight: 100;
   font-size: 5em;
@@ -84,7 +84,7 @@ body {
 
 .content p {
   font-size: 1.5em;
-  animation: sway_subtitle 7s linear infinite;
+  animation: 7s linear 0s infinite alternate sway_subtitle;
 /*   margin-top: -2em; */
   z-index: 9999;
   position: relative;
@@ -93,7 +93,7 @@ body {
 nav {
   margin-top: 1em;
   font-size: 16px;
-  animation: sway_nav 7s linear infinite;
+  animation: 7s linear 0s infinite alternate sway_nav;
 /*   margin-left: -5px; */
   text-align: center;
   position: relative;
@@ -145,5 +145,5 @@ nav a:visited {
   width: 50%;
   margin-left: 26%;
   margin-top: -15px;
-  animation: sway_description 7s linear infinite;
+  animation: 7s linear 0s infinite alternate sway_description;
 }
