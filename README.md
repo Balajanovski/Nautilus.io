@@ -11,4 +11,6 @@ Feel free to look around.
    Contributing
 ------------------
 
-Zane Hannan, @ZaneHannanAU
+See [CONTRIBUTING] for more.
+
+[CONTRIBUTING]: ./CONTRIBUTING (Contributing)
