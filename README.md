@@ -11,6 +11,6 @@ Feel free to look around.
    Contributing
 ------------------
 
-See [CONTRIBUTING] for more.
+See [CONTRIBUTING.md] for more.
 
-[CONTRIBUTING]: ./CONTRIBUTING (Contributing)
+[CONTRIBUTING.md]: ./CONTRIBUTING.md (Contributors)
