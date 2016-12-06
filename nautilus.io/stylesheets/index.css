@@ -1,6 +1,7 @@
 :root, body {
   overflow-x: hidden;
-  overflow-y: hidden;
+/*   overflow-y: hidden; */
+/*   It makes it useless :-( */
   box-sizing: border-box;
 }
 :root * {
@@ -150,5 +151,6 @@ nav a:visited {
 }
 
 #slogan {
-  margin-top: -40px;
+  margin: auto;
+/*   Centres slogo */
 }
