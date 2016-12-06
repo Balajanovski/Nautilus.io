@@ -22,9 +22,6 @@ body {
   50% {
     transform: rotate(-6deg) translate(10px, 0%);
   }
-  100% {
-    transform: rotate(6deg) translate(-10px, 0%);
-  }
 }
 @keyframes sway_subtitle {
   0% {
@@ -32,9 +29,6 @@ body {
   }
   50% {
     transform: rotate(-6deg) translate(14.5px, 0%);
-  }
-  100% {
-    transform: rotate(6deg) translate(-14.5px, 0%);
   }
 }
 @keyframes sway_description {
@@ -44,9 +38,6 @@ body {
   50% {
     transform: rotate(-6deg) translate(17px, 0%);
   }
-  100% {
-    transform: rotate(6deg) translate(-17px, 0%);
-  }
 }
 @keyframes sway_nav {
   0% {
@@ -54,9 +45,6 @@ body {
   }
   50% {
     transform: rotate(-6deg) translate(20px, 0%);
-  }
-  100% {
-    transform: rotate(6deg) translate(-20px, 0%);
   }
 }
 
@@ -112,11 +100,11 @@ nav {
   z-index: 9999;
 }
 
-a {
+nav a {
   color: white;
 }
 
-a:visited {
+nav a:visited {
   color: white;
 }
 
