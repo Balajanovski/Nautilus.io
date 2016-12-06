@@ -33,15 +33,26 @@ body {
     transform: rotate(6deg) translate(-14.5px, 0%);
   }
 }
-@keyframes sway_nav {
+@keyframes sway_description {
   0% {
-    transform: rotate(6deg) translate(-17.5px, 0%);
+    transform: rotate(6deg) translate(-17px, 0%);
   }
   50% {
-    transform: rotate(-6deg) translate(17.5px, 0%);
+    transform: rotate(-6deg) translate(17px, 0%);
   }
   100% {
-    transform: rotate(6deg) translate(-17.5px, 0%);
+    transform: rotate(6deg) translate(-17px, 0%);
+  }
+}
+@keyframes sway_nav {
+  0% {
+    transform: rotate(6deg) translate(-20px, 0%);
+  }
+  50% {
+    transform: rotate(-6deg) translate(20px, 0%);
+  }
+  100% {
+    transform: rotate(6deg) translate(-20px, 0%);
   }
 }
 
@@ -88,7 +99,7 @@ body {
 }
 
 nav {
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 16px;
   animation: sway_nav 7s linear infinite;
   margin-left: -5px;
@@ -118,16 +129,22 @@ a:visited {
   height: 60px;
   min-height: 60px;
   z-index: 9999;
-  margin-top: -135px;
+  margin-top: -151px;
 }
 
 #copyright {
   color: gray;
   font-family: 'Quicksand', sans-serif;
-  position: absolute;
-  top: 925px;
 }
 
 #waves {
   flex: 1 1 auto;
+}
+
+#description {
+  font-size: 16px;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: -15px;
+  animation: sway_description 7s linear infinite;
 }
