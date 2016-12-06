@@ -1,6 +1,6 @@
 :root, body {
   overflow-x: hidden;
-/*   overflow-y: hidden; */
+  overflow-y: hidden;
   box-sizing: border-box;
 }
 :root * {
@@ -121,19 +121,20 @@ nav a:visited {
 } */
 
 #seabed {
-  background-color: sandybrown;
-  height: 60px;
-  min-height: 60px;
+  background-color: #ffcc66;
+  height: 80px;
+  min-height: 80px;
   z-index: 9999;
   display: flex;
-  box-shadow: 0 -15px 1rem sandybrown;
-/*   margin-top: -151px; */
+  box-shadow: 0 -7px 1rem #ffcc66;
+  margin-top: -7em;
 }
 
 #copyright {
   color: black;
   font-family: 'Quicksand', sans-serif;
   margin: auto;
+  margin-top: 10px;
 }
 
 #waves {
@@ -146,4 +147,8 @@ nav a:visited {
   margin-left: 26%;
   margin-top: -15px;
   animation: 7s linear 0s infinite alternate sway_description;
+}
+
+#slogan {
+  margin-top: -40px;
 }

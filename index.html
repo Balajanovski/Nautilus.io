@@ -3,7 +3,10 @@
   <head>
     <link href="nautilus.io/stylesheets/waves.css" rel="stylesheet" type="text/css">
     <link href="nautilus.io/stylesheets/index.css" rel="stylesheet" type="text/css">
-    <link href="nautilus.io/stylesheets/life.css" rel="stylesheet" type="text/css">
+    <link href="nautilus.io/stylesheets/life.css" media="only screen and (min-width:800px)"
+    rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:800px)"
+    href="nautilus.io/stylesheets/life(<800).css">
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <title>Nautilus.iO &mdash; Web development just got a lot more streamline</title>
@@ -29,7 +32,7 @@
       </svg>
       <div class="content">
         <h1>Nautilus.iO</h1>
-        <p>Web development just got a lot more streamline</p>
+        <p id="slogan">Web development just got a lot more streamline</p>
         <p id="description">Nautilus.io is breathing new life into web-development, introducing a concise and
           streamlined way to develop fast, interactive and simply stunning websites.</p>
         <nav>
