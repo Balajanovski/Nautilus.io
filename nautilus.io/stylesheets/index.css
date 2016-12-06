@@ -1,6 +1,10 @@
 :root, body {
   overflow-x: hidden;
-  overflow-y: hidden;
+/*   overflow-y: hidden; */
+  box-sizing: border-box;
+}
+:root * {
+  box-sizing: inherit;
 }
 
 body {
