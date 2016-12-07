@@ -76,15 +76,15 @@
 }
 
 #weed1 {
-  bottom: 35px;
-  height: 45%;
+  bottom: 100%;
   left: 12.0%;
-  visibility: hidden;
+  height: 200px;
+  visibility: none;
 }
 
 #weed2 {
-  bottom: 35px;
+  bottom: 100%;
   left: 80%;
-  height: 30%;
-  visibility: hidden;
+  height: 120px;
+  visibility: none;
 }
