@@ -73,18 +73,17 @@
 .seaweed {
   position: absolute;
   z-index: 0;
+  visibility: hidden;
 }
 
 #weed1 {
   bottom: 100%;
   left: 12.0%;
   height: 200px;
-  visibility: none;
 }
 
 #weed2 {
   bottom: 100%;
   left: 80%;
   height: 120px;
-  visibility: none;
 }
