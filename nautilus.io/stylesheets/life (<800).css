@@ -1,9 +1,3 @@
-:root, body {
-  overflow-y: hidden !important /* Extremely strange glitch's simplest fix
-                                 * Before removing ask me
-                                */
-}
-
 @keyframes swim {
   0% {
     transform: translate(120em, 0%);
