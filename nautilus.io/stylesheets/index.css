@@ -1,9 +1,8 @@
 :root, body {
-  overflow-x: hidden;
-/*   overflow-y: hidden; */
-/*   It makes it useless :-( */
+  overflow-x: hidden; /* Prevents x-scrolling revealing fish animation */
   box-sizing: border-box;
 }
+
 :root * {
   box-sizing: inherit;
 }
@@ -86,7 +85,6 @@ body {
 .content p {
   font-size: 1.5em;
   animation: 7s linear 0s infinite alternate sway_subtitle;
-/*   margin-top: -2em; */
   z-index: 9999;
   position: relative;
 }
@@ -95,7 +93,6 @@ nav {
   margin-top: 1em;
   font-size: 16px;
   animation: 7s linear 0s infinite alternate sway_nav;
-/*   margin-left: -5px; */
   text-align: center;
   position: relative;
   z-index: 9999;
@@ -113,13 +110,6 @@ nav a:visited {
 /*   Only for beyond the first one */
   margin-left: 30px;
 }
-/* #about-link {
-  margin-right: 30px;
-}
-
-#compare-link {
-  margin-left: 30px;
-} */
 
 #seabed {
   background-color: #ffcc66;
@@ -129,7 +119,6 @@ nav a:visited {
   display: flex;
   box-shadow: 0 -7px 1rem #ffcc66;
   position: relative;
-/*   margin-top: -7em; /* fixes bottom fixing */
 }
 
 #copyright {
