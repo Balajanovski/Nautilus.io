@@ -128,6 +128,7 @@ nav a:visited {
   z-index: 9999;
   display: flex;
   box-shadow: 0 -7px 1rem #ffcc66;
+  position: relative;
 /*   margin-top: -7em; /* fixes bottom fixing */
 }
 
