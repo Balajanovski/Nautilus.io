@@ -1,3 +1,12 @@
+@keyframes sway {
+  from {
+    transform: rotate(6deg) translate(-10px, 0%);
+  }
+  to {
+    transform: rotate(-6deg) translate(10px, 0%);
+  }
+}
+
 :root, body {
   overflow-x: hidden;
 }
@@ -45,6 +54,7 @@ body {
   display: flex;
   box-shadow: 0 -7px 1rem #ffcc66;
   position: relative;
+  bottom: 0;
 }
 
 #copyright {
@@ -60,4 +70,16 @@ body {
   top: 25px;
   width: 100%;
   height: auto;
+}
+
+.easy {
+  color: lime;
+}
+
+.image {
+  animation: 7s linear 0s infinite alternate sway;
+}
+
+#github {
+  clip: rect(600000px,60px,200px,0px);
 }
