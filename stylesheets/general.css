@@ -28,7 +28,6 @@ body {
   margin-left: 14%;
   color: white;
   padding: 1px 1px 1px 1px;
-  box-shadow:
 }
 
 #content h1 {
@@ -84,4 +83,36 @@ body {
 #github {
   clip: rect(600000px,60px,200px,0px);
   box-shadow: 5px 5px 2.5px #888888;
+}
+
+#form {
+  text-align: left;
+  position: fixed;
+  left: 50%;
+  margin-left: -105px;
+}
+
+input, textarea {
+  box-shadow: 2px 2px 1px #888888;
+  border: black solid 1px;
+  height: 17px;
+  text-size: 20px;
+  width: 120%;
+}
+
+textarea {
+  height: 80px;
+}
+
+#submit {
+  margin-top: 20px;
+  padding: 6px 9px;
+  border-radius: 20%;
+  background-color: white;
+}
+
+#form {
+  position: fixed;
+  left: 45%;
+  right: 45%;
 }
