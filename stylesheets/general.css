@@ -1,3 +1,5 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 @keyframes sway {
   from {
     transform: rotate(3deg) translate(-6px, 0%);
@@ -115,4 +117,19 @@ textarea {
   position: fixed;
   left: 45%;
   right: 45%;
+}
+
+#home {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-size: 24px;
+}
+
+#home a {
+  color: white;
+}
+
+#home a:visited {
+  color: white;
 }
