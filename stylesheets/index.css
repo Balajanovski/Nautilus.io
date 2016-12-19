@@ -1,3 +1,5 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 :root, body {
   overflow-x: hidden; /* Prevents x-scrolling revealing fish animation */
   box-sizing: border-box;

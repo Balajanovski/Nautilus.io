@@ -4,19 +4,18 @@
 
 $(document).ready(function(){
     var $nav = $("nav");
-    $("#compare-link").click(function(e){
+    var $body = $("body");
+    $body.on("click", "#compare-link", function(e){
         e.preventDefault();
-        e.stopPropagation();
         $nav.fadeOut(200);
         $nav.html("<a class=\"nav-link\" id=\"back-link\" href=\"#\">Back</a>" +
-                     "<a class=\"nav-link\" id=\"bootstrap-link\" href=\"#\">Bootstrap</a>" +
-                     "<a class=\"nav-link\" id=\"foundation-link\" href=\"#\">Foundation</a>");
+            "<a class=\"nav-link\" id=\"bootstrap-link\" href=\"#\">Bootstrap</a>" +
+            "<a class=\"nav-link\" id=\"foundation-link\" href=\"#\">Foundation</a>");
         $nav.fadeIn(400);
     });
 
-    $("#back-link").click(function(e){
+    $body.on("click", "#back-link", function(e){
         e.preventDefault();
-        e.stopPropagation();
         $nav.fadeOut(200);
         $nav.html('<a class="nav-link" id="about-link" href="about.html">About</a>' +
                               '<a class="nav-link" id="contribute-link" href="contribute.html">Contribute</a>' +
