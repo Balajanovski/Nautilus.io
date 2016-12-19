@@ -22,24 +22,26 @@
 }
 
 #fish1 {
-  top: 39rem;
+  top: 45rem;
   width: 20%;
   opacity: 0.7;
+  left: 30em;
   animation: swim 18s ease-in-out infinite;
 }
 
 #fish2 {
-  top: 29rem;
+  top: 35rem;
   width: 14%;
+  left: 31em;
   animation: swim 20s ease-in-out infinite;
   opacity: 0.55;
 }
 
 #fish3 {
-  top: 21rem;
+  top: 27rem;
   z-index: 90;
   width: 10%;
-  left: 40em;
+  left: 49em;
   animation: swim 25s ease-in-out infinite;
   opacity: 0.43;
 }
