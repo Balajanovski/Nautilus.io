@@ -1,7 +1,3 @@
-/**
- * Created by MrIggyman1234 on 19/12/2016.
- */
-
 $(document).ready(function(){
     var $nav = $("nav");
     var $body = $("body");
