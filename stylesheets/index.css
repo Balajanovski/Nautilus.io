@@ -98,6 +98,7 @@ nav {
   text-align: center;
   position: relative;
   z-index: 9999;
+  opacity: 1.0;
 }
 
 nav a {
