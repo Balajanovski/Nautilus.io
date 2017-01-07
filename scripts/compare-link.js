@@ -5,7 +5,7 @@ $(document).ready(function(){
         e.preventDefault();
         $nav.html("<a class=\"nav-link\" id=\"back-link\" href=\"#\">Back</a>" +
             "<a class=\"nav-link\" id=\"bootstrap-link\" href=\"Bootstrap.html\">Bootstrap</a>" +
-            "<a class=\"nav-link\" id=\"foundation-link\" href=\"#\">Foundation</a>");
+            "<a class=\"nav-link\" id=\"foundation-link\" href=\"Foundation.html\">Foundation</a>");
     });
 
     $body.on("click", "#back-link", function(e){
