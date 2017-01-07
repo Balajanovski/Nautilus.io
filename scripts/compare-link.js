@@ -4,7 +4,7 @@ $(document).ready(function(){
     $body.on("click", "#compare-link", function(e){
         e.preventDefault();
         $nav.html("<a class=\"nav-link\" id=\"back-link\" href=\"#\">Back</a>" +
-            "<a class=\"nav-link\" id=\"bootstrap-link\" href=\"#\">Bootstrap</a>" +
+            "<a class=\"nav-link\" id=\"bootstrap-link\" href=\"Bootstrap.html\">Bootstrap</a>" +
             "<a class=\"nav-link\" id=\"foundation-link\" href=\"#\">Foundation</a>");
     });
 
