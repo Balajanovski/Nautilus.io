@@ -4,10 +4,10 @@ var wordCount = e => {
 	let len = box.value.length
 	let maxLen = parseInt(box.getAttribute('maxlength'))
 
-	if (len < maxLen){
-		wc.innerText = `${maxLen - len} characters remaining.`
+	if (len <= maxLen){
+		wc.innerText = `${maxLen - len} character${(maxLen - len) == 1 ? '' : 's'} remaining.`
 	} else {
-		wc.innerText = `${len - maxLen} characters over the ${maxLen} character limit.`
+		wc.innerText = `${len - maxLen} character${(len - maxLen) == 1 ? '' : 's'} over the ${maxLen} character limit.`
 	}
 }
 
