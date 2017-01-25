@@ -108,11 +108,10 @@ nav a {
 nav a:visited {
   color: white;
 }
-
-.nav-link~.nav-link {
-/*   Only for beyond the first one */
+nav a~*{
   margin-left: 30px;
 }
+
 
 #seabed {
   background-color: #ffcc66;

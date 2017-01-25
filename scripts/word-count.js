@@ -1,16 +1,16 @@
-$(document).ready(function(){
-    $("#message").keydown(function(){
-        var max_length = 500 - $("#message").val().length;
-        if (max_length === NaN)
-            $("#word-count").text(max_length + " characters left");
-        else
-            $("#word-count").text(max_length + " characters left");
-    });
-    $("#message").keyup(function(){
-        var max_length = 500 - $("#message").val().length;
-        if (max_length === NaN)
-            $("#word-count").text(max_length + " characters left");
-        else
-            $("#word-count").text(max_length + " characters left");
-    });
-});
+'use strict';
+
+var wc = document.querySelector('#word-count');
+var wordCount = function wordCount(e) {
+	var box = e.target;
+	var len = box.value.length;
+	var maxLen = parseInt(box.getAttribute('maxlength'));
+
+	if (len < maxLen) {
+		wc.innerText = maxLen - len + ' characters remaining.';
+	} else {
+		wc.innerText = len - maxLen + ' characters over the ' + maxLen + ' character limit.';
+	}
+};
+
+document.querySelector('#message').addEventListener('input', wordCount);

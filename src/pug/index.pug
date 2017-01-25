@@ -1,0 +1,37 @@
+include mixins
+-
+	var stylesheets = ['waves', 'index', 'life'],
+	    scripts = [],
+	    schools = 3,
+	    fish = 3,
+	    weed = 2
+block vars
+doctype html
+html(lang='en-AU' dir='ltr')
+	head
+		meta(charset="UTF-8")
+		title #{title} &mdash; Nautilus.iO
+		meta(name="viewport" content="width=device-width")
+		each sheet in stylesheets
+			link(rel='stylesheet' href=`stylesheets/${sheet}.css`)
+	body
+		block waves
+			+waves
+		.content
+			block content
+				h1 Something happened
+				p Someone hasn't added content, it seems.
+		block footer
+			#life-container
+				// fish & schools
+				while fish > 0
+					img.fish(src='img/Fish.png' id=`fish${fish--}`)
+				while schools > 0
+					img.school(src='img/School.png' id=`school${schools--}`)
+			#seabed
+				p#copyright Copyright #{new Date().getFullYear()} #[span.author Balajanovski], #[span.author ZaneHannanAU]
+				// weed
+				while weed > 0
+					img.seaweed(src='img/Seaweed.png' id=`weed${weed--}`)
+	each script in scripts
+		script(defer async src=`scripts/${script}.js` type='text/javascript')

@@ -1,0 +1,20 @@
+extends ../pug/index
+block vars
+	-
+		var title = 'Web development just got a lot more streamline'
+		var navs = [
+			{title: 'About',	href: 'about.html'},
+			{title: 'Contribute',	href: 'contribute.html'},
+			{title: 'Compare',	href: '#compare'},
+			{title: 'Contact us',	href: 'contact.html'}
+		]
+		var scripts = ['compare-link']
+block content
+	h1 Nautilus.iO
+	p#slogan Web development just got a lot more streamline
+	p#description
+		| Nautilus.io&trade; is breathing new life into web-development, introducing a concise and streamlined way to develop fast, interactive and simply stunning websites.
+	//- failing?
+	nav
+		each nav in navs
+			a(href=nav.href)=nav.title
