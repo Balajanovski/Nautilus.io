@@ -1,57 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
-    <link href="stylesheets/general.css" type="text/css" rel="stylesheet">
-    <link href="stylesheets/life.css" rel="stylesheet" type="text/css">
-    <link href="stylesheets/waves.css" rel="stylesheet" type="text/css">
-    <title>About &mdash; Nautilus.iO</title>
+    <title>Contribute &mdash; Nautilus.iO</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/waves.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/life.css">
   </head>
   <body>
-    <svg class="editorial"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 24 150 28"
-    preserveAspectRatio="none">
-    <defs>
-      <path id="gentle-wave" d="m -160,44.4 c 30,0 58,
-      -18 87.7,-18 30.3,0 58.3,
-      18 87.3,18 30,0 58,-18 88,
-      -18 30,0 58,18 88,18 l 0,
-      34.5 -351,0 z" />
+    <div id="Waves">
+      <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+          <path id="gentle-wave" d="m -160,44.4 c 30,0 58,
+ -18 87.7,-18 30.3,0 58.3,
+ 18 87.3,18 30,0 58,-18 88,
+ -18 30,0 58,18 88,18 l 0,
+ 34.5 -351,0 z"></path>
         </defs>
         <g class="parallax">
-          <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
-          <use xlink:href="#gentle-wave" x="50" y="3" fill="#3461c1"/>
-          <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"/>
+          <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"></use>
+          <use xlink:href="#gentle-wave" x="50" y="3" fill="#3461c1"></use>
+          <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"></use>
         </g>
-    </svg>
-    <div id="home">
-      <a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+      </svg>
     </div>
-    <div id="wrapper">
-      <div id="content">
-        <h1>How to Contribute</h1>
-        <p>Nautilus.iO&trade; is run by open source developers, and to continue running we NEED YOU!<br>
-          If you are an opensource developer skilled in HTML, XML, Perl, C++ or Java, <a href="https://github.com/Balajanovski/Nautilus.io">click here.</a>
-          <br><br>To get started with github, look for an issue, preferably one with the <b class="easy">Easy</b>
-          tag if you are not familiar with the code base, create a fork and get bug fixing. Once you have finished,
-          submit a pull request, and, if your request passes all the tests and gets approved, you are officially a contributer.
-        </p>
-        <img id="github" class="image" src="img/github.jpg">
-      </div>
+    <div class="content">
+      <h1>How to Contribute</h1>
+      <p>Nautilus.iO&trade; is run by open source developers, and to continue running we NEED YOU!</p>
+      <p>If you are an opensource developer skilled in HTML, XML, Perl, C++ or Java, please <a href="https://github.com/Balajanovski/Nautilus.io">click here</a> to join.</p>
+      <p>To get started with github, look for an issue, preferably one with the <b class="easy">Easy</b> tag.</p>
+      <p>if you are not familiar with the code base, create a fork and get bug fixing. Once you have finished, submit a pull request, and, if your request passes all the tests and gets approved, you are officially a contributer!~</p><img class="image" src="img/github.jpg" id="github">
     </div>
-    <div id="life-container"> <!-- Contains fish and seaweed -->
-      <img class="fish" id="fish2" src="img/Fish.png">
-      <img class="fish" id="fish3" src="img/Fish.png">
-      <img class="school" id="school2" src="img/School.png">
-      <img class="school" id="school1" src="img/School.png">
+    <div id="life-container">
+      <!-- fish & schools--><img class="fish" src="img/Fish.png" id="fish3"><img class="fish" src="img/Fish.png" id="fish2"><img class="fish" src="img/Fish.png" id="fish1"><img class="school" src="img/School.png" id="school3"><img class="school" src="img/School.png" id="school2"><img class="school" src="img/School.png" id="school1">
     </div>
     <div id="seabed">
-      <p id="copyright">Registered &reg; Under the Apache Open Source License</p>
-      <img class="seaweed" id="weed1" src="img/Seaweed.png">
-      <img class="seaweed" id="weed2" src="img/Seaweed.png">
+      <p id="copyright">Copyright 2017 <span class="author">Balajanovski</span>, <span class="author">ZaneHannanAU</span></p>
+      <!-- weed--><img class="seaweed" src="img/Seaweed.png" id="weed2"><img class="seaweed" src="img/Seaweed.png" id="weed1">
     </div>
   </body>
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </html>
